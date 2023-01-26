@@ -1,15 +1,78 @@
 {
-    "users":
-    [
-        {
-            "id": 1,
-            "name": "John",
-            "email": "john@email.com"
-        },
-        {
-            "id": 2,
-            "name": "jane",
-            "email": "jane@email.com"
-        }
-    ]
+  "tours": [
+    {
+      "id": "Alpha",
+      "name": "Glaciares",
+      "img": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6e/d9/d7.jpg",
+      "adult_price": "263",
+      "child_price": "200",
+      "duration": "aprox 9hs",
+      "condition": "gust of wind must be less than 30",
+      "description": "Go see some of the world's most amazing glaciers before they disappear during this full-day tour of Lake Argentino. View multiple glaciers from the ship including Upsala, Seco, Heim, Spegazzini and Perito Moreno. Stop for a short guided walk and enjoy panoramic views of the glaciers and enjoy a boxed lunch with a non-alcoholic drink while you sail."
+    },
+    {
+      "id": "Beta",
+      "name": "Walk Perito Moreno",
+      "img": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/04/b1/f4.jpg",
+      "adult_price": "326",
+      "child_price": "295",
+      "duration": "10hs",
+      "condition": "gusts of wind must be less than 25",
+      "description": "Trekking on a glaciar is a big adventure, but it doesn't need to take precious planning time or cause stress. This guided Tour to the Perito Moreno Glacier area in Los Glaciares National Park takes you on a hassle-free hike across some of Patagonia's most stunning glaciers.  All necessary equipment is included, plus your guides provide information about the area's history and culture as you go."
+    },
+    {
+      "id": "Charlie",
+      "name": "Upsala Glacier and Estancia Cristina",
+      "img": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0a/69/25/50.jpg",
+      "adult_price": "277",
+      "child_price": "220",
+      "duration": "aprox. 11 hs",
+      "condition": "gust of wind must be less than 23",
+      "description": "Discover Upsala Glacier and Estancia Cristina on this full-day adventure from El Calafate. Sail past icebergs on Patagonia's Lago Argentino to Estancia Cristina, a historical sheep and cattle ranch at the end of the world. Tour Estancia Cristina, then choose between an off-road 4x4 tour to Upsala Glacier or a walk to a pristine nearby waterfall."
+    }
+  ],
+  "admin": [
+    {
+      "id": "1",
+      "name": "Claudia",
+      "email": "claudia@patagonicfaketravel.com",
+      "password": "123"
+    },
+    {
+      "id": "2",
+      "name": "Julio",
+      "email": "julio@patagonicfaketravel.com",
+      "password": "456"
+    },
+    {
+      "id": "3",
+      "name": "Sandra",
+      "email": "sandra@patagonicfaketravel.com",
+      "password": "789"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "name": "Jhon",
+      "lastname": "Smith",
+      "phone": 999999999,
+      "email": "john@blabla.com",
+      "hotel": "arcade",
+      "Adults": 4,
+      "Children": 1,
+      "language": "English"
+    },
+    {
+      "id": 2,
+      "name": "Lara",
+      "lastname": "Croft",
+      "phone": 8888888,
+      "email": "laraC@blabla.com",
+      "hotel": "Patagonicos",
+      "Adults": 1,
+      "children": 2,
+      "language": "Spanish"
+    }
+  ]
 }
